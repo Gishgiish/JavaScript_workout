@@ -30,7 +30,7 @@ function generatePassword(length, includeLowercase, includeUppercase, includeSym
         const randomIndex = Math.floor(Math.random() * allowedChars.length);
         password += allowedChars[randomIndex];
 
-    }
+    } 
 
     return password;
     
